@@ -1,0 +1,11 @@
+<h1>Productos</h1>
+{ %for db.sqlite3 in Productos %}
+<h2>{{Productos.nombre}}</h2>
+<p>{{Productos.marca}}</p>
+<p>{{Productos.modelo}}</p>
+<p>{{Productos.descripcion}}</p>
+<p>{{Productos.precio}}</p>
+<p>{{Productos.cantidad}}</p>
+{% endfor %}
+
+
