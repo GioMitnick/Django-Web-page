@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sytle.css">
+ 
 </head>
 <body>
     <header>
@@ -27,6 +28,8 @@
             <section class="intro">
                 <h1>Productos</h1>
                 <p>Se cuentan con los siguientes productos</p>
+                <!-- Aquí se incluye un bucle para mostrar productos de una base de datos -->
+                {% for producto in productos %}
                 <div class="producto">
                     <h2>{{ producto.nombre }}</h2>
                     <p><strong>Marca:</strong> {{ producto.marca }}</p>
