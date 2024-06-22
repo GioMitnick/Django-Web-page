@@ -1,6 +1,4 @@
 Integrantes:
 
-- Grande Sarmiento Lucero
-- Palacios Centeno Giovanni
-- Silvana Flores Guerrero
-- Marcos Rodolfo Macias Mondragón
+- Grande Sarmiento Lucero-Diseño
+- Palacios Centeno Giovanni-Estructura
